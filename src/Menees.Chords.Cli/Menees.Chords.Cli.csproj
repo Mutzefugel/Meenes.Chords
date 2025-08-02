@@ -2,14 +2,9 @@
 	<PropertyGroup>
 		<TargetFramework>$(MeneesTargetNetCore)</TargetFramework>
 		<OutputType>Exe</OutputType>
-		<RuntimeIdentifier>linux-x64</RuntimeIdentifier>>
+		<RuntimeIdentifier>linux-x64</RuntimeIdentifier>
 	</PropertyGroup>
-<!--
-	<ItemGroup>
-		<!-- Based on VS 2010 Image Library\Objects\png_format\WinVista\Music_Note_Double_*.png -->
-		<Content Include="Vista_Music_Note_Double.ico" />
-	</ItemGroup>
--->
+
 	<ItemGroup>
 	  <PackageReference Include="Menees.Common" />
 	</ItemGroup>

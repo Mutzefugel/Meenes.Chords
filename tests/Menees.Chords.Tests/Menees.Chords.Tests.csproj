@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>$(MeneesTargetNetCore);$(MeneesTargetNetFramework)</TargetFrameworks>
+		<TargetFrameworks>$(MeneesTargetNetCore)</TargetFrameworks>
 		<RootNamespace>Menees.Chords</RootNamespace>
 		<IsPackable>false</IsPackable>
 		<IsTestProject>true</IsTestProject>
