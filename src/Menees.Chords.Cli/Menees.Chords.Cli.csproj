@@ -1,16 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>$(MeneesTargetNetCore);$(MeneesTargetNetFramework)</TargetFrameworks>
+		<TargetFramework>$(MeneesTargetNetCore)</TargetFramework>
 		<OutputType>Exe</OutputType>
-		<ApplicationIcon>Vista_Music_Note_Double.ico</ApplicationIcon>
-		<IsPublishable>true</IsPublishable>
+		<RuntimeIdentifier>linux-x64</RuntimeIdentifier>>
 	</PropertyGroup>
-
+<!--
 	<ItemGroup>
 		<!-- Based on VS 2010 Image Library\Objects\png_format\WinVista\Music_Note_Double_*.png -->
 		<Content Include="Vista_Music_Note_Double.ico" />
 	</ItemGroup>
-
+-->
 	<ItemGroup>
 	  <PackageReference Include="Menees.Common" />
 	</ItemGroup>

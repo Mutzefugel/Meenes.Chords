@@ -20,7 +20,7 @@
 		<!-- DOTNET_VERSION: Set framework and core versions for libraries. Set core version for Blazor. Update README.md. -->
 		<!-- We'll support older LTS releases for library builds. We'll use the latest STS release for web builds. -->
 		<MeneesTargetNetFramework>net48</MeneesTargetNetFramework>
-		<MeneesTargetNetCore>net6.0</MeneesTargetNetCore>
+		<MeneesTargetNetCore>net9.0</MeneesTargetNetCore>
 		<MeneesTargetNetWeb>net9.0</MeneesTargetNetWeb>
 
 		<RepoSrcFolder>$(MSBuildThisFileDirectory)src</RepoSrcFolder>
