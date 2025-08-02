@@ -44,11 +44,12 @@ internal sealed class ConvertCommand
 		// CommandLine doesn't allow empty switches, so we can't use the Unix-style '-' to mean stdin.
 		const string ReadStdIn = "~";
 
-		string appName = Path.GetFileNameWithoutExtension(CommandLine.ExecutableFileName);
+		// string appName = Path.GetFileNameWithoutExtension(CommandLine.ExecutableFileName);
+		string appName = "Menees.Chords.Cli";
 		string versionInfo = ShellUtility.GetVersionInfo(typeof(ConvertCommand).Assembly);
 		commandLine.AddHeader($"{appName} - {versionInfo}");
 		commandLine.AddHeader("Converts a chord sheet file from one format to another.");
-		commandLine.AddHeader($"Usage: {CommandLine.ExecutableFileName} input|{ReadStdIn} [/output File] [/overwrite] [/clean]");
+		commandLine.AddHeader($"Usage: {appName} input|{ReadStdIn} [/output File] [/overwrite] [/clean]");
 		commandLine.AddHeader("            [/parse ...] [/transform ...] [/format ...] [/encoding ...]");
 
 		ConvertCommand command = new();
